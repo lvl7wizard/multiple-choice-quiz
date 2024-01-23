@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', monospace;
+}
+
+button {
+    font-family: 'Courier New', monospace;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: right;
+}
+
+#main-image {
+    display: block;
+    margin: 0 auto;
+}
+
+#question {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+}

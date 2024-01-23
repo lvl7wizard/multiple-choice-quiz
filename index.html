@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Einstein Quiz</h1>
+    <h3>Score: <span id = score>0</span></h3>
+    <img src="./images/einstein-1.jpeg" id="main-image" alt="A photo of Einstein smoking a pipe infront of a backdrop of mathmetical equations">
+    <h2 id="question-banner">Question 1</h2>
+    <p id="question">What unusual object did young Albert Einstein receive as a gift from his father when he was just five years old, sparking his lifelong curiosity about science?</p>
+    <div class="button-container">
+        <button type="button" id="button-a" style="visibility: block;" onclick=checkAnswer(this.innerText)>Compass</button>
+        <button type="button" id="button-b" style="visibility: block;" onclick=checkAnswer(this.innerText)>Microscope</button>
+        <button type="button" id="button-c" style="visibility: block;" onclick=checkAnswer(this.innerText)>Telecope</button>
+    </div>
+</body>
+
+</html>
